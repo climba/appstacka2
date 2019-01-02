@@ -109,7 +109,7 @@ class ProjectsPage2 extends Component {
             </Card>
           </CardGroup>
 
-          <CardGroup deck className="mt-3">
+          <CardGroup>
           <Card>
               <CardImage
                 src="http://www.istpd.com/images/proj_scrape.jpg"
@@ -169,21 +169,29 @@ class ProjectsPage2 extends Component {
 
             <Card>
               <CardImage
-                src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg"
+                src="http://www.istpd.com/images/game-captain.jpg"
                 alt="Card image cap"
                 top
                 hover
                 overlay="white-slight"
               />
               <CardBody>
-                <CardTitle tag="h5">Panel title</CardTitle>
+                <CardTitle tag="h5">A small JQuery game</CardTitle>
                 <CardText>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                This is a small JQuery game. Click the small captain planet images to win!
                 </CardText>
-                <Button color="light-blue" size="md">
-                  read more
-                </Button>
+                <MDBBtn 
+                  href="https://climba.github.io/Captain-Planet-Collector/" 
+                  target="_blank" 
+                  color="primary">
+                  Live
+                </MDBBtn>
+                <MDBBtn
+                  href="https://github.com/climba/Captain-Planet-Collector"
+                  target="_blank"
+                  color="default">
+                  Repo
+                </MDBBtn>
               </CardBody>
             </Card>
           </CardGroup>

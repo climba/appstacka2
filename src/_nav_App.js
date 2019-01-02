@@ -82,6 +82,24 @@ class App extends Component {
                     Projects
                   </NavLink>
                 </NavItem>
+                <NavItem>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.closeCollapse("mainNavbarCollapse")}
+                    to="/bio"
+                  >
+                    Bio
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.closeCollapse("mainNavbarCollapse")}
+                    to="/contact"
+                  >
+                    Contact
+                  </NavLink>
+                </NavItem>
               </NavbarNav>
             </Collapse>
           </Navbar>

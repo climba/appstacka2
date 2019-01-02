@@ -41,8 +41,8 @@ class PortfolioPage extends Component {
                 <CardText>
                       The Gripster is a product that I invented. I've been working
                       on it since 2011. I have customers all over the world who use
-                      The Gripster to train climbing strength. Its been a fun Project
-                      but now I'm craving to become part of team.
+                      The Gripster to train climbing strength. It's been a fun Project
+                      but now I'm craving to work as part of a team.
                 </CardText>
                 <MDBBtn 
                   href="https://www.thegripster.com/" 
@@ -73,7 +73,7 @@ class PortfolioPage extends Component {
             <Card>
               <CardImage
                 src="http://www.istpd.com/images/site_it.jpg"
-                alt="The Gripster"
+                alt="Industrial Tracker"
                 top
                 hover
                 overlay="white-slight"
@@ -91,7 +91,7 @@ class PortfolioPage extends Component {
                       some apps to service industrial sectors at some point.
                 </CardText>
                 <MDBBtn 
-                  href="https://www.industrialtracker.com/" 
+                  href="http://www.industrialtracker.com/" 
                   target="_blank" 
                   color="primary">
                   Visit website
@@ -101,107 +101,129 @@ class PortfolioPage extends Component {
 
             <Card>
               <CardImage
-                src="../docs/img/content/proj_burg.jpg"
-                alt="Card image cap"
+                src="http://www.istpd.com/images/site_pi.jpg"
+                alt="Petro Industrial"
                 top
                 hover
                 overlay="white-slight"
               />
               <CardBody>
-                <CardTitle tag="h5">Node Express Handlebars Mysql</CardTitle>
+              <h4 className="font-weight-bold mb-3">Petro Industrial</h4>
+                    <p className="font-weight-bold blue-text">Ecommerce - Magento 1.9</p>
+                    <hr />
+                    <h6 className="font-weight-bold">About the Project</h6>
                 <CardText>
-                This application connects to a database, you can add burgers, and move them from one table to another.
+                      Petro Industrial is a provider of industrial tank solutions all
+                      over the world. This was an exciting project to manage. I had 
+                      to work with the manager for the first part of the project to
+                      lock down design specs for all the main pages and the product
+                      pages. Once they had signed off I began building them a custom
+                      magento theme. I worked with Petro Ind over a period of two years
                 </CardText>
                 <MDBBtn 
-                  href="https://serene-ocean-80276.herokuapp.com/" 
+                  href="https://www.petroind.com/" 
                   target="_blank" 
                   color="primary">
-                  On Heroku
-                </MDBBtn>
-                <MDBBtn
-                  href="https://github.com/climba/Eat_Burgers"
-                  target="_blank"
-                  color="default">
-                  On GitHub
+                  Visit website
                 </MDBBtn>
               </CardBody>
             </Card>
+
           </CardGroup>
 
-          <CardGroup deck className="mt-3">
+          <CardGroup>
           <Card>
               <CardImage
-                src="../docs/img/content/proj_scrape.jpg"
-                alt="Card image cap"
+                src="http://www.istpd.com/images/site_bio.jpg"
+                alt="Bio Radiations"
                 top
                 hover
                 overlay="white-slight"
               />
               <CardBody>
-                <CardTitle tag="h5">Node express scrapper application</CardTitle>
+              <h4 className="font-weight-bold mb-3">Bio Radiations</h4>
+                    <p className="font-weight-bold blue-text">CMS - Joomla 1.5</p>
+                    <hr />
+                    <h6 className="font-weight-bold">About the Project</h6>
                 <CardText>
-                This application scrapes a climbing route website and adds the data to a mongoDB database. View the routes on one handy page!
+                      Bioradiations is the online magazine for the Bio-Rad Life 
+                      Science community. I worked with Bioradiations for over a 
+                      year adding new functionality to their joomla CMS site.
+                      I built a custom image scroller for their homepage header
+                      based off functionality they liked on another joomla site. 
+                      I also performed security maintenance on the apache server 
+                      and upgraded the joomla CMS core.
                 </CardText>
                 <MDBBtn 
-                  href="https://glacial-brook-38522.herokuapp.com/" 
+                  href="http://www.bioradiations.com/" 
                   target="_blank" 
                   color="primary">
-                  On Heroku
-                </MDBBtn>
-                <MDBBtn
-                  href="https://github.com/climba/route-scrapper"
-                  target="_blank"
-                  color="default">
-                  On GitHub
+                  Visit website
                 </MDBBtn>
               </CardBody>
             </Card>
 
             <Card>
               <CardImage
-                src="../docs/img/content/game-giphy.jpg"
-                alt="Card image cap"
+                src="http://www.istpd.com/images/site_ce.jpg"
+                alt="Concrete Exchange"
                 top
                 hover
                 overlay="white-slight"
               />
               <CardBody>
-                <CardTitle tag="h5">Node express scrapper application</CardTitle>
+              <h4 className="font-weight-bold mb-3">Concrete Exchange</h4>
+                    <p className="font-weight-bold blue-text">CMS - Joomla 1.5</p>
+                    <hr />
+                    <h6 className="font-weight-bold">About the Project</h6>
                 <CardText>
-                This application scrapes a climbing route website and adds the data to a mongoDB database. View the routes on one handy page!
+                Concrete Exchange is a pioneer in the decorative concrete
+                Industry. They had been stuck in an old java codebase that
+                Needed to be recompiled each time a web page was edited.
+                It was running on a tomcat server that had to be restarted after
+                every change. In 6 months I migrated them over to joomla and
+                they were extremely satisfied with their new CMS
+
                 </CardText>
                 <MDBBtn 
-                  href="https://climba.github.io/Giphy/" 
+                  href="http://www.concreteexchange.com/" 
                   target="_blank" 
                   color="primary">
-                  Live
-                </MDBBtn>
-                <MDBBtn
-                  href="https://github.com/climba/Giphy"
-                  target="_blank"
-                  color="default">
-                  Repo
+                  Visit website
                 </MDBBtn>
               </CardBody>
             </Card>
 
             <Card>
               <CardImage
-                src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg"
-                alt="Card image cap"
+                src="http://www.istpd.com/images/site_mace.jpg"
+                alt="Mace Security"
                 top
                 hover
                 overlay="white-slight"
               />
               <CardBody>
-                <CardTitle tag="h5">Panel title</CardTitle>
+              <h4 className="font-weight-bold mb-3">Mace Security</h4>
+                    <p className="font-weight-bold blue-text">Ecommerce - Magento 1.9</p>
+                    <hr />
+                    <h6 className="font-weight-bold">About the Project</h6>
                 <CardText>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Mace Security International, Inc. is a manufacturer of personal 
+                defense products such as the widely recognized Mace Pepper Spray.
+                When I arrived at Mace they were in a bad spot. Their old OSCommerce
+                site had been hacked and the server was in bad shape. They decided
+                to ditch the old server and start a new Magneto site from scratch.
+                I was able to clone to old server to a local machine and repair it
+                and then export over a thousand skus ind import them into magento
+                saving months of tedious work.
+
                 </CardText>
-                <Button color="light-blue" size="md">
-                  read more
-                </Button>
+                <MDBBtn 
+                  href="https://www.mace.com/" 
+                  target="_blank" 
+                  color="primary">
+                  Visit website
+                </MDBBtn>
               </CardBody>
             </Card>
           </CardGroup>
