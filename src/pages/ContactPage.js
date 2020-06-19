@@ -2,15 +2,7 @@ import React from "react";
 import {
   MDBContainer,
   MDBRow,
-  MDBCol,
-  MDBInput,
-  MDBBtn,
-  MDBIcon,
-  MDBCard,
-  MDBCardBody,
-  MDBModal,
-  MDBModalBody,
-  MDBModalFooter
+  MDBCol
 } from "mdbreact";
 
 class ContactPage extends React.Component {

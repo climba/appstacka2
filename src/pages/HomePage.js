@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBMask, MDBRow, MDBCol, MDBView, MDBContainer } from "mdbreact";
+import { MDBMask, MDBRow, MDBBtn, MDBCol, MDBView, MDBContainer } from "mdbreact";
 import "./HomePage.css";
 
 class HomePage extends React.Component {
@@ -34,10 +34,13 @@ class HomePage extends React.Component {
                     Etched Creative and any more.</p>
                     <p>For a long time, one of my passions was rock climbing. After becoming more and more focused on 
                     climbing I was inspired to create a new type of training tool for climbers, this led me to invent 
-                    The Gripster.</p>
-                    <p>My years of web development led me to understand that many companies are competing for a slice of 
-                    the pie within a crowded space of saturated industries. I was inspired to create a new product in 
-                    a new sector that was not saturated and didn’t have any competitors, yet!</p>
+                    <MDBBtn
+                      target="_blank"
+                      href="https://www.thegripster.com/"
+                      color="primary">
+                      The Gripster
+                    </MDBBtn></p>
+
 
                   </h6>
                 </div>
@@ -48,23 +51,32 @@ class HomePage extends React.Component {
                     className="img-fluid pt-5"
                   />
                 </MDBCol>
-                <div className="white-text text-center text-md-left col-md-12 mt-xl-12 mb-12">
-                  <h6 className="mb-4">
-                    
-                    
-
-                    <p>Since building my business and inspiring climbers to create exciting new training tools, I have begun 
-               to see how the next step in my creative journey is in app development. I have returned to the web 
-               development space to continue developing the skills that I need to develop the next generation of 
-               creative solutions.</p>
-                    
-
-                  </h6>
-                </div>
-              </MDBRow>
+              </MDBRow>              
             </MDBContainer>
           </MDBMask>
         </MDBView>
+        <MDBContainer>
+          <MDBRow className="py-5">
+            <MDBCol md="12">
+            <h6 className="mb-4">
+                    <p>My years of web development led me to understand that many companies are competing for a slice of 
+                    the pie within a crowded space of saturated industries. I was inspired to create a new product in 
+                    a new sector that was not saturated and didn’t have any competitors, yet!</p>
+                    <p>I set out to invent a new product that would replace an outdated form of training with a new 
+                    dynamic one. Little did I know that I was birthing a new era of training tools for climbing.
+                    This process led me on a powerful journey of learning many new skills like 3D scanning, CNC routing, 
+                    mold making, casting and 3D printing.</p>
+                    <p>After inventing the Gripster and selling it all over the world, many climbers have been inspired to 
+                    add their ideas to this new era of climbing training tools.</p>
+                    <p>Since building my business and inspiring climbers to create exciting new training tools, I have begun 
+                    to see how the next step in my creative journey is in app development. I have returned to the web 
+                    development space to begin building the foundations that I need to develop the next generation of 
+                    creative solutions.</p>
+
+                  </h6>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
       </div>
     );
   }

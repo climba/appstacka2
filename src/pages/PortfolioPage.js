@@ -1,14 +1,10 @@
 import React, { Component } from "react";
 import {
-  Button,
-  Col,
-  Row,
   Container,
   Card,
   CardBody,
   CardGroup,
   CardImage,
-  CardTitle,
   CardText,
   MDBBtn,
   Fa
